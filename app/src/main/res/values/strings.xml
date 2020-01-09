@@ -1,0 +1,42 @@
+<resources>
+    <string name="app_name">OBOR- Silk Road culture platform</string>
+    //Engligh Spinner
+    <string-array name="English_Types">
+        <item>"All"</item>
+        <item>"Chinese Literature"</item>
+        <item>"Chinese linguistics"</item>
+        <item>"Chinese culture"</item>
+        <item>"Translation ch~Ar"</item>
+        <item>"News room"</item>
+    </string-array>
+
+    //Chinese Spinner
+    <string-array name="Chinese_Types">
+        <item>"所有"</item>
+        <item>"中国文学"</item>
+        <item>"汉语语言学"</item>
+        <item>"中华文化"</item>
+        <item>"阿汉汉阿翻译"</item>
+        <item>"头条"</item>
+    </string-array>
+
+    //English Dialog Spinner
+    <string-array name="English_Dialog">
+        <item>"Select Category"</item>
+        <item>"Chinese Literature"</item>
+        <item>"Chinese linguistics"</item>
+        <item>"Chinese culture"</item>
+        <item>"Translation ch~Ar"</item>
+        <item>"News room"</item>
+    </string-array>
+
+    //Chinese Dialog Spinner选择类别
+    <string-array name="Chinese_Dialog">
+        <item>"选择类别"</item>
+        <item>"中国文学"</item>
+        <item>"汉语语言学"</item>
+        <item>"中华文化"</item>
+        <item>"阿汉汉阿翻译"</item>
+        <item>"头条"</item>
+    </string-array>
+</resources>

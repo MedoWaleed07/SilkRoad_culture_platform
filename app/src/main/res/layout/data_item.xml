@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@android:color/white"
+    android:paddingBottom="5dp">
+
+    <ImageView
+        android:id="@+id/dataType"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:layout_margin="16dp"/>
+
+    <LinearLayout
+        android:layout_width="189dp"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="16dp"
+        android:layout_weight="3"
+        android:orientation="vertical"
+        android:paddingRight="4dp">
+
+        <TextView
+            android:id="@+id/file_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="File Name"
+            android:textColor="@android:color/black"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/file_date"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="File Date"
+            android:textSize="14sp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_gravity="start"
+        android:orientation="vertical">
+
+        <Button
+            android:id="@+id/download_btn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginStart="4dp"
+            android:layout_marginTop="4dp"
+            android:layout_marginEnd="4dp"
+            android:layout_marginBottom="4dp"
+            android:background="@drawable/round"
+            android:backgroundTint="#061869"
+            android:padding="4dp"
+            android:paddingStart="4dp"
+            android:paddingLeft="4dp"
+            android:paddingTop="4dp"
+            android:paddingEnd="4dp"
+            android:paddingRight="4dp"
+            android:paddingBottom="4dp"
+            android:text="Download"
+            android:textColor="#EDF0F1"
+            android:textSize="12sp" />
+
+        <Button
+            android:id="@+id/delete_btn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginStart="4dp"
+            android:layout_marginEnd="4dp"
+            android:background="@drawable/round"
+            android:backgroundTint="#830707"
+            android:padding="4dp"
+            android:paddingStart="4dp"
+            android:paddingLeft="4dp"
+            android:paddingTop="4dp"
+            android:paddingEnd="4dp"
+            android:paddingRight="4dp"
+            android:paddingBottom="4dp"
+            android:text="Delete"
+            android:textColor="@color/design_default_color_on_primary"
+            android:textSize="12sp" />
+    </LinearLayout>
+
+
+</LinearLayout>
